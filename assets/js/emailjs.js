@@ -1,5 +1,5 @@
 
-emailjs.init("rSJ5tgLfFX5Af4gZV")
+window.emailjs.init("rSJ5tgLfFX5Af4gZV", "service_n1k1t4w")
 const form = document.getElementById("contactUsForm");
 form.addEventListener('submit', function (event) {
     event.preventDefault()
